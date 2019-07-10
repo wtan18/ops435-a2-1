@@ -1,0 +1,5 @@
+Process a list of all users logged in (and out) on a UNIX/Linux system from a text file created by the shell command "last -F"
+(1) Read all the records
+(2) normalized all the records so that each record has the same login and logout date
+(3) select records for the same user or the same remote machine
+(4) based on the records selected in step (3), create daily, weekly, or monthly report in the format specified.
