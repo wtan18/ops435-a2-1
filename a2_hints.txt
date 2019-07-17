@@ -1,0 +1,33 @@
+use dictionary for storing daily, weekly, and monthly usage
+
+d_usage = {1:0,2:0 ... 366:0} or {yyyy001:0, yyyy002:0, ... yyyy366:0}
+w_usage = {1:0,2:0 ... 53:0} or {yyyy01:0, yyyy02:0, ... yyyy53:0}
+m_usage = [1:0,2:0 ... 12:0} or {yyyy01:0, yyyy02:0, ... yyyy12:0}
+
+python code to initialized the dictionary:
+
+t = [{x:0} for x in range(367)]
+d_usage = {}
+for i in t:
+    d_usage.update(i)
+
+>>> c
+{11: 10, 12: 20, 13: 30}
+>>> for k in c.keys():
+...     d_usage[k] += c[k]
+
+
+if d_usage is only initialzed to {}
+
+for k in c.keys():
+   try:
+       d_usage[k] += c[k]  <-- if the dictionay key found in d_usage
+   except KeyError:
+       d_usage[k] = c[k]   <-- if the dictornay key is not in d_usage
+
+ 
+
+
+
+
+
