@@ -1,0 +1,55 @@
+﻿Week 10 Lecture Notes 
+
+1. House keep items:
+   (a) confirm that you have added 'rc2030' as one of the collaborators to your github
+       private repository "ops435-a2"
+   (b) email your github user name to  your professor from your Seneca email account
+   (c) github invitation has been accepted by user 'rc2030'
+
+2. Pracation Quiz on File and exception handing next Tuesday
+
+3. Tools and tips for assignment 2 algorithm:
+   (a) argparse module
+   (b) time module - refer to 
+   (c) login/logout file --> login/logout records
+   (d) login/logout records: day number, week number, month number determination
+   (e) normalize login/logout records
+
+4. Some python statement example using the time module and reading login/logout records from file:
+
+usage_data_file:
+
+   f=open('usage_data_file','r')
+
+   recs=f.read().strip().split('\n')
+   rec=recs[0].split()
+
+   rec[4:8] -> ['Feb','13','16:53:42','2018']
+   rec[10:14] -> ['Feb','13','16:57:02','2018']
+
+   t_in = " ".join(rec[4:8]) -> 'Feb 13 16:53:42 2018'
+   t_out = " ".join(rec[10:14]) -> 'Feb 13 16:57:02 2018'
+
+time module:
+
+   fmt="%b %d %H:%M:
+   time.strptime(t_in, fmt) - time tuple
+
+   time.struct_time(tm_year=2018, tm_mon=2, tm_mday=13, tm_hour=16, tm_min=53, tm_sec=42, tm_wday=1, tm_yday=44, tm_isdst=-1)
+
+   time.strptime(t_out,fmt)
+
+   time.struct_time(tm_year=2018, tm_mon=2, tm_mday=13, tm_hour=16, tm_min=57, tm_sec=2, tm_wday=1, tm_yday=44, tm_isdst=-1)
+
+
+   in_tup = time.strptime(t_in,fmt)
+   out_tup = time.strptime(t_out,fmt)
+
+
+   diff_tup = float(time.strftime("%s",in_tup)) - float(time.strftime("%s",out_tup))
+
+
+5. Q & A
+
+
+
