@@ -1,21 +1,21 @@
 ﻿Week 10 Lecture Notes 
 
-1. House keep items:
+1. House keeping items:
    (a) confirm that you have added 'rc2030' as one of the collaborators to your github
        private repository "ops435-a2"
    (b) email your github user name to  your professor from your Seneca email account
    (c) github invitation has been accepted by user 'rc2030'
 
-2. Pracation Quiz on File and exception handing next Tuesday
+2. Practical Quiz on File and exception handing next Tuesday
 
 3. Tools and tips for assignment 2 algorithm:
    (a) argparse module
-   (b) time module - refer to 
+   (b) time module - refer to the example shown in section 4 below.
    (c) login/logout file --> login/logout records
    (d) login/logout records: day number, week number, month number determination
    (e) normalize login/logout records
 
-4. Some python statement example using the time module and reading login/logout records from file:
+4. Some python statement examples on using the time module and reading login/logout records from a text file:
 
 usage_data_file:
 
