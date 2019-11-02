@@ -44,14 +44,9 @@ def cal_weekly_usage(subject,login_recs):
     subject (user or remote host)'''
     [ put your python code for this function here ]
     return weekly_usage
-
-def cal_monthly_usage(subject,login_recs):
-    ''' docstring for this function
-    generate monthly usage report fro the given
-    subject (user or remote host)'''
-    [ put your python code for this function here ]
-    return monthly_usage
      
+[other function definition ]
+      
 if __name__ == '__main__':
     
     [ code to retrieve command line argument using the argparse module [
