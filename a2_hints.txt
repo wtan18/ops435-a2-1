@@ -1,8 +1,7 @@
-use dictionary for storing daily, weekly, and monthly usage
+use dictionary for storing daily or weekly usage
 
 d_usage = {1:0,2:0 ... 366:0} or {yyyy001:0, yyyy002:0, ... yyyy366:0}
 w_usage = {1:0,2:0 ... 53:0} or {yyyy01:0, yyyy02:0, ... yyyy53:0}
-m_usage = [1:0,2:0 ... 12:0} or {yyyy01:0, yyyy02:0, ... yyyy12:0}
 
 python code to initialized the dictionary:
 
