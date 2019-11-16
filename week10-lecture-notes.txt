@@ -1,12 +1,11 @@
 ﻿Week 10 Lecture Notes 
 
 1. House keeping items:
-   (a) confirm that you have added 'rc2030' as one of the collaborators to your github
+   (a) confirm that you have added 'rayfreeping' as one of the collaborators to your github
        private repository "ops435-a2"
-   (b) email your github user name to  your professor from your Seneca email account
-   (c) github invitation has been accepted by user 'rc2030'
+   (b) github invitation has been accepted by user 'rayfreeping'
 
-2. Practical Quiz on File and exception handing next Tuesday
+2. Practical Quiz on class and object next Wednesday/Friday
 
 3. Tools and tips for assignment 2 algorithm:
    (a) argparse module
