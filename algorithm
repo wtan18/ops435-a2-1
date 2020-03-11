@@ -1,7 +1,9 @@
+Algorithm summary, please fill in the details:
 (1) Process command line argument to determin source of data, type of usage report to produce
-(2) Read usage data form named files and store each usage data as an item in a list. 
-each item represent a logged in (and out) for a user on a UNIX/Linux system.
-(3) select and store records for the target user (as given at the command line) in a list
+(2) Read usage data form named files, if the name of the file is 'online', get it from the output of 
+the command "last -iwF" on the currect system, and store each usage data as an item in a list. 
+Each item represents a logged in (and out) for a user on a UNIX/Linux system.
+(3) select and store records for the target user or remote host (as given at the command line) in a list
 (4) normalized all the records for the target user so that each record has the login and logout time on the same date
 (5) based on the records created in step (4), produce the appropriate (daily or weekly, according to the command line option)
 report in the format specified.
