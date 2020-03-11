@@ -5,7 +5,7 @@
        private repository "ops435-a2"
    (b) github invitation has been accepted by user 'rayfreeping'
 
-2. Practical Quiz on class and object next Wednesday/Friday
+2. Practical Quiz 5 on Python class and object next Wednesday/Thursday
 
 3. Tools and tips for assignment 2 algorithm:
    (a) argparse module
@@ -14,7 +14,7 @@
    (d) login/logout records: day number, week number, month number determination
    (e) normalize login/logout records
 
-4. Some python statement examples on using the time module and reading login/logout records from a text file:
+4. Some example python statements on using the time module and reading login/logout records from a text file:
 
 usage_data_file:
 
