@@ -13,6 +13,7 @@ import os
 import sys
 import time
 import argparse
+[import ur_funcs as ur] <-- if use the functions provided by the teacher (-10%)
 
 def get_login_rec():
     ''' docstring for this fucntion
