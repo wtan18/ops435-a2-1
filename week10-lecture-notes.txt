@@ -50,5 +50,46 @@ time module:
 
 5. Q & A
 
+   (a)  In terms of weekly report sample below from OPS 435 Assigment 2 link:
 
+        Weekly Usage Report for rchan
+        =============================
+        Week #        Usage in Seconds
+        2018 07           3560
+        Total             3560
+
+
+        What is the number 07 under the Week# column? Is it the seventh week of 2018?
+        
+        Yes, it is the 7th week of 2018.
+        
+Please note that that calendar for the first three months of 2018 is:
+                               2018                              
+
+       January               February                 March      
+Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6                1  2  3                1  2  3
+ 7  8  9 10 11 12 13    4  5  6  7  8  9 10    4  5  6  7  8  9 10
+14 15 16 17 18 19 20   11 12 13 14 15 16 17   11 12 13 14 15 16 17
+21 22 23 24 25 26 27   18 19 20 21 22 23 24   18 19 20 21 22 23 24
+28 29 30 31            25 26 27 28            25 26 27 28 29 30 31
+
+We should use the format control %W to get the week number of any given date, which assigns week number 1 to the 1st Monday of the year.
+In Year 2018, the first Monday is January 1, so week #1 is from Jan 1 to Jan 7, week #2 is from Jan 8 to Jan 14, etc.
+
+For Year 2019, here are the first three months of 2019:
+ 
+                                2019                              
+
+       January               February                 March      
+Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+       1  2  3  4  5                   1  2                   1  2
+ 6  7  8  9 10 11 12    3  4  5  6  7  8  9    3  4  5  6  7  8  9
+13 14 15 16 17 18 19   10 11 12 13 14 15 16   10 11 12 13 14 15 16
+20 21 22 23 24 25 26   17 18 19 20 21 22 23   17 18 19 20 21 22 23
+27 28 29 30 31         24 25 26 27 28         24 25 26 27 28 29 30
+                                              31
+
+The first Monday in 2019 is Jan 7, therefore week #1 is from Jan 7 to Jan 13, week #2 is from Jan 14 to Jan 20.
+Jan 1 to Jan 6 is treated as week #0.
 
