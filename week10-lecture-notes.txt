@@ -31,7 +31,7 @@ usage_data_file:
 
 time module:
 
-   fmt="%b %d %H:%M:
+   fmt="%b %d %H:%M:%S %Y"
    time.strptime(t_in, fmt) - time tuple
 
    time.struct_time(tm_year=2018, tm_mon=2, tm_mday=13, tm_hour=16, tm_min=53, tm_sec=42, tm_wday=1, tm_yday=44, tm_isdst=-1)
